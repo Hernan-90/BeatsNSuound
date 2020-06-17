@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  font-family: 'Cabin', sans-serif;
+}
+header{
+  background-image: url('../imagenes/fondo.png');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  color: white;
+}
+.nav {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+/* .nav a:hover{
+  text-decoration: underline;
+  animation-name: fadeIn;
+} */
+.nav li{
+  margin-right: 1em;
+  padding: 10px;
+}
+.logo-container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  text-shadow: 0px 0px 4px #0000;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.logo h1{
+  font-size: 40px;
+}
+.marcas{
+  text-align: center;
+}
+.marcas h2{
+  padding: 20px;
+}
+.logos-marcas img{
+  height: 200px;
+  width: 500px;
+}
+main{
+    background-image: url('../imagenes/disco.png');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    position: relative;
+    top: -20px;
+    z-index: -1;
+}
+.lala {
+  animation-duration: 3s;
+  /* animation-delay: 2s; */
+  /* animation-iteration-count: infinite; */
+}
+.lala2 {
+  animation-duration: 10s;
+  /* animation-delay: 2s; */
+  /* animation-iteration-count: infinite; */
+}
